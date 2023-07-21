@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Cor do ícone de pesquisa -->
+        <item name="android:searchIcon">@drawable/baseline_search_24</item>
+
+        <!-- Cor do ícone de fechar -->
+        <item name="android:closeIcon">@drawable/baseline_close_24</item>
+
+        <!-- Cor do texto digitado -->
+        <item name="android:textColorHint">@color/search_view_text_hint_color</item>
+
+        <!-- Cor do texto de pesquisa -->
+        <item name="android:textColor">@color/search_view_text_color</item>
+
+        <!-- Cor do fundo da SearchView -->
+        <item name="android:background">@drawable/search_view_background</item>
+
+        <!-- Cor do fundo da caixa de texto -->
+        <item name="android:queryBackground">@drawable/search_view_query_background</item>
+
+        <item name="fontFamily">@font/josefin_sans</item>
+    </style>
+</resources>

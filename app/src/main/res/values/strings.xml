@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Carioca Estoque</string>
+
+    <!--    tela login-->
+    <string name="hint_email">E-mail</string>
+    <string name="hint_pass">Senha</string>
+    <string name="txt_button_enter">Entrar</string>
+    <string name="txt_tela_cadastro">Ainda não tem uma conta?</string>
+    <string name="txt_tela_cadastro_link">Cadastre-se!</string>
+    <!--    tela cadastro-->
+    <string name="txt_tela_cadastro_in">Já possui uma conta?</string>
+    <string name="txt_tela_cadastro_linkl_in">Clique aqui para entrar!</string>
+    <string name="txt_button_enter_in">Cadastrar</string>
+    <string name="hint_confimpass">Confirme a senha</string>
+    <!--    tela principal-->
+    <string name="txt_contentDescription">Adiocionar Item</string>
+    <!--    tela card_item_std-->
+    <string name="txt_produto">Produto:</string>
+    <string name="txt_modelo">Modelo:</string>
+    <string name="txt_quantidade">Quantidade:</string>
+    <string name="txt_peso">/ Peso:</string>
+    <string name="txt_kg">kg</string>
+    <string name="txt_desc">Descrição do item:</string>
+    <string name="txt_deletar_card_item">Deletar</string>
+    <!--    tela cadastro_estoque-->
+    <string name="txt_contentDescription_voltar">Voltar</string>
+    <string name="txt_contentDescription_confirmar">Confirmar</string>
+    <string name="txt_nome">Nome:</string>
+    <string name="edittext_nome">Nome do produto</string>
+    <string name="edittext_modelo">Ex: XLR8</string>
+    <string name="edittext_qtd">Ex: 100</string>
+    <string name="txt_peso_cadastro_estoque">Peso p/ unidade (kg):</string>
+    <string name="edittext_peso">Ex: 0,8</string>
+    <string name="edittext_desc">Ex: Produto frágil</string>
+
+<!--    template-->
+    <string name="imgViewLoginTemplate">Login</string>
+    <string name="imgViewRegisterTemplate">Cadastro</string>
+    <string name="imgViewInsertItemTemplate">Cadastre seus itens!</string>
+
+</resources>
