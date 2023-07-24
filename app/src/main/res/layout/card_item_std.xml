@@ -83,49 +83,50 @@
         android:id="@+id/txtViewQtd"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
         android:fontFamily="@font/josefin_sans"
         android:text=""
+
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/txtViewQtdCard"
-        app:layout_constraintTop_toBottomOf="@+id/txtViewModel" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewQtdCard" />
 
     <TextView
         android:id="@+id/txtViewWeightCard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
         android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
         android:fontFamily="@font/josefin_sans_bold"
         android:text="@string/txt_peso"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@id/txtViewQtd"
-        app:layout_constraintTop_toBottomOf="@+id/txtViewModel" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewQtd" />
 
     <TextView
         android:id="@+id/txtViewWeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:ellipsize="end"
         android:fontFamily="@font/josefin_sans"
         android:text=""
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/txtViewKg"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.00"
-        app:layout_constraintStart_toEndOf="@+id/txtViewWeightCard"
-        app:layout_constraintTop_toBottomOf="@+id/txtViewModel" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewWeightCard" />
 
     <TextView
         android:id="@+id/txtViewKg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="4dp"
         android:fontFamily="@font/josefin_sans_bold"
         android:text="@string/txt_kg"
         android:textColor="@color/black"
@@ -133,7 +134,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.00"
         app:layout_constraintStart_toEndOf="@+id/txtViewWeight"
-        app:layout_constraintTop_toBottomOf="@+id/txtViewModel" />
+        app:layout_constraintTop_toBottomOf="@+id/txtViewWeightCard" />
 
     <TextView
         android:id="@+id/txtViewDescriptionCard"
@@ -153,7 +154,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-
         android:ellipsize="end"
         android:fontFamily="@font/josefin_sans"
         android:maxLines="3"
